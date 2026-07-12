@@ -30,7 +30,7 @@ When the project already has an established design direction, use it as a search
 ## Research Framework
 
 1. **Frame:** Define the target, scope, lens, platform, audience, supplied direction, and important constraints.
-2. **Choose sources:** Start with user-provided material. Use Mobbin for product UI and flows; read [references/mobbin.md](references/mobbin.md) before using it. Use other relevant visual sources when the subject falls outside Mobbin's coverage.
+2. **Choose sources:** Start with user-provided material. For digital-product UI, components, and flows, Mobbin is required when available; read [references/mobbin.md](references/mobbin.md), search the correct artifact type, and inspect returned images before synthesis or downstream creation. If unavailable, state that before continuing. Use other sources outside Mobbin's coverage.
 3. **Search in layers:** Category leaders → task or pattern matches → important states → exceptional smaller or adjacent products.
 4. **Curate:** Keep references that are relevant, meaningful, credible, distinct, and current enough. Stop when new results only repeat known patterns.
 5. **Synthesize:** Group by pattern or direction—not merely by source—and translate observations into useful design decisions.
@@ -41,6 +41,7 @@ Use one shared research frame, evidence set, reference board, and response. This
 
 - With `find-divergent-design-references`, establish the baseline and expand credible strategies.
 - With `find-convergent-design-references`, compare close variations of the selected pattern and narrow them against constraints.
+- With `create-design-direction-board`, pass inspected evidence and synthesis into original, high-fidelity HTML directions.
 - Do not create separate boards or duplicate references by skill.
 - If both companions are active without an explicit sequence, ask whether the user wants to explore or narrow.
 
@@ -59,8 +60,9 @@ For each selected reference, capture:
 For components, inspect anatomy, hierarchy, content, density, interaction, responsiveness, and meaningful states. For flows, inspect the complete journey. For moodboards, identify coherent visual clusters instead of mixing unrelated attractive work.
 
 ## Required Output
-
 Lead with the references, not a lengthy explanation of the research process. Keep the depth proportional to the request.
+
+For a reference-only request, use the structure below. When the user requests a downstream design artifact, treat research as an intermediate stage: complete and inspect it first, then pass each source, canonical link, observed pattern, relevance, and limitation into the requested creation skill. Keep references traceable, but do not reproduce, fabricate, or roughly reconstruct source interfaces.
 
 1. **Research scope** — Briefly state what was explored, the relevant platform or audience, and whether an existing design direction influenced the search.
 2. **Reference board** — Present the strongest references grouped by meaningful pattern, visual direction, or approach. For every reference, include:
@@ -88,10 +90,10 @@ Choose the presentation format based on scope:
 Keep the response proportional to the request. A footer should not receive a product-wide audit; a complete onboarding flow should not be reduced to isolated screenshots.
 
 ## Final Check
-
 - References match the actual scope and lens.
 - Established products were considered before obscure ones.
 - Each reference contributes a distinct lesson.
 - Images or artifacts were inspected, not inferred from metadata.
+- Mobbin was used for applicable product UI, or its unavailability was stated.
 - Observations, inferences, and recommendations are distinguishable.
 - Every mentioned reference has a source link.
