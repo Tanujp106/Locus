@@ -1,0 +1,14 @@
+interface:
+  display_name: "Convergent Design References"
+  short_description: "Compare and narrow a chosen design pattern"
+  default_prompt: "Use $find-convergent-design-references with $find-design-references to compare and narrow this selected design pattern."
+  icon_small: "assets/icon.svg"
+  icon_large: "assets/icon.svg"
+  brand_color: "#FF7A59"
+policy:
+  products:
+    - "chatgpt"
+    - "codex"
+    - "api"
+    - "atlas"
+  allow_implicit_invocation: true
