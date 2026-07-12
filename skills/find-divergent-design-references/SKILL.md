@@ -49,6 +49,32 @@ Explore only relevant dimensions:
 | Control | Is it user-led, system-led, automatic, or contextual? |
 | Expression | How do hierarchy, type, imagery, material, composition, or motion change it? |
 
+## Direction Contract and Divergence Gate
+
+Before ranking, every candidate direction must declare:
+
+- preserved outcome
+- primary mental model
+- organising principle
+- changed assumptions
+- layout and navigation model
+- disclosure model
+- main user action
+- primary representation
+- density and visual expression
+- interaction model, tradeoff, and inspected evidence
+
+A candidate must change at least two structural assumptions. Use a comparison matrix across **structure, sequence, interaction, representation, disclosure, and navigation**. Compare every final direction pairwise, not only against the baseline; a set can diverge from the baseline while still converging internally. Record the decisive pairwise differences.
+
+Reject a candidate when:
+
+- another direction could use the same component tree with only content, colour, typography, or card rearrangement changed
+- it can still be described by the same dominant grammar, such as “summary cards around a chart”
+- its difference is primarily aesthetic
+- its cross-domain reference lacks a clear transferable principle
+
+When direct competitors repeat one convention, deliberately search adjacent and cross-domain products.
+
 ## Research Process
 
 1. **Preserve:** Define the outcome every reference must support.
@@ -58,6 +84,9 @@ Explore only relevant dimensions:
 5. **Inspect:** Examine the actual artifact, interaction, or flow.
 6. **Group:** Organise references by solution strategy and degree of divergence.
 7. **Translate:** Explain what each approach opens up, limits, or requires validating.
+8. **Gate:** Generate the requested pool—or 10 candidates when selecting a smaller final set—then remove candidates that fail the divergence gate.
+9. **Rank:** Rank only the structurally distinct survivors against project relevance, feasibility, evidence quality, and useful contrast. Preserve excluded candidates and short rejection reasons in the working analysis.
+10. **Respect evidence limits:** If fewer credible, structurally distinct families survive than the requested count, report the supported count and ask whether to proceed with fewer or broaden research. Never invent hybrids or duplicate grammars merely to satisfy a number.
 
 Use cross-domain references only when their transferable principle and connection to the original problem can be explained explicitly. Stop when additional references repeat the same underlying strategy.
 
@@ -77,7 +106,7 @@ Divergent and convergent research represent different design phases. If both com
 
 ## Required Output
 Lead with references and keep the response proportional.
-For a reference-only request, use the structure below. For a downstream direction board, make research intermediate and produce one brief per requested direction containing: direction name, core idea, preserved outcome, changed assumptions, layout model, information hierarchy, visual system, data-visualisation approach, interaction model, tradeoff, and inspected sources with canonical links. Directions must differ in solution strategy, not merely colour or decoration.
+For a reference-only request, use the structure below. For a downstream direction board, make research intermediate and produce one brief per requested direction containing: direction name, core idea, preserved outcome, primary mental model, organising principle, changed assumptions, layout and navigation model, disclosure model, main user action, primary representation, density, information hierarchy, visual system, data-visualisation approach, interaction model, tradeoff, similarity risks, and inspected sources with canonical links. Directions must differ in solution strategy, not merely colour or decoration.
 
 1. **Research frame:** The problem, preserved outcome, relevant context, and existing design direction.
 2. **Baseline:** The established pattern and its underlying assumptions.
@@ -89,7 +118,10 @@ For a reference-only request, use the structure below. For a downstream directio
 ## Final Check
 - The original problem and outcome remain intact.
 - A useful baseline anchors the exploration.
-- Every alternative changes an identifiable assumption.
+- Every alternative changes at least two structural assumptions.
+- No two final directions can be implemented from the same component tree with cosmetic or content-only changes.
+- The pairwise comparison matrix demonstrates meaningful differences between every retained direction, not merely between each direction and the baseline.
+- The final count does not exceed the number of credible structural families supported by inspected evidence.
 - References represent distinct strategies, not cosmetic variations.
 - Uncommon does not replace relevant or credible.
 - Actual artifacts were inspected.
