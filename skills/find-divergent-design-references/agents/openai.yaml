@@ -1,0 +1,14 @@
+interface:
+  display_name: "Divergent Design References"
+  short_description: "Explore uncommon but relevant design patterns"
+  default_prompt: "Use $find-divergent-design-references with $find-design-references to broaden the possible solutions for this design problem."
+  icon_small: "assets/icon.svg"
+  icon_large: "assets/icon.svg"
+  brand_color: "#7C5CFC"
+policy:
+  products:
+    - "chatgpt"
+    - "codex"
+    - "api"
+    - "atlas"
+  allow_implicit_invocation: true
