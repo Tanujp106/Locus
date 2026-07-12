@@ -35,6 +35,19 @@ When the project already has an established design direction, use it as a search
 4. **Curate:** Keep references that are relevant, meaningful, credible, distinct, and current enough. Stop when new results only repeat known patterns.
 5. **Synthesize:** Group by pattern or direction—not merely by source—and translate observations into useful design decisions.
 
+## Coverage Planning
+
+Before searching, plan evidence across the families relevant to the request:
+
+- direct competitors and category leaders
+- adjacent products solving the same task differently
+- interaction- or representation-specific references
+- credible cross-domain references when divergence is requested
+
+Tag every selected reference with its **primary mental model, layout grammar, main interaction, information density, disclosure model, transferable principle, and contextual limitation**.
+
+Multiple products using the same underlying structure are one pattern family, not separate directions. For divergent work, include one conventional family, at least two structurally different adjacent families, and at least two credible cross-domain families when available. Do not let one layout grammar dominate the evidence set merely because many products use it.
+
 ## Companion Skills
 
 Use one shared research frame, evidence set, reference board, and response. This skill owns scope, sources, artifact inspection, evidence quality, and canonical links; the companion owns the curation objective.
@@ -56,6 +69,10 @@ For each selected reference, capture:
 - observable design details
 - why it is relevant to this request
 - limitation or context that prevents blind copying
+- primary mental model, layout grammar, main interaction, density, and disclosure model
+- transferable structural principle and what must not transfer
+
+For downstream creation, pass an evidence packet for every retained reference: **source and canonical link; observed pattern; primary mental model; structural principle; interaction principle; what transfers; what must not transfer; contextual limitation**.
 
 For components, inspect anatomy, hierarchy, content, density, interaction, responsiveness, and meaningful states. For flows, inspect the complete journey. For moodboards, identify coherent visual clusters instead of mixing unrelated attractive work.
 
@@ -92,7 +109,8 @@ Keep the response proportional to the request. A footer should not receive a pro
 ## Final Check
 - References match the actual scope and lens.
 - Established products were considered before obscure ones.
-- Each reference contributes a distinct lesson.
+- Each reference contributes a distinct lesson and duplicate layout grammars were grouped.
+- Divergent requests cover direct, adjacent, and credible cross-domain families rather than saturating one product category.
 - Images or artifacts were inspected, not inferred from metadata.
 - Mobbin was used for applicable product UI, or its unavailability was stated.
 - Observations, inferences, and recommendations are distinguishable.
