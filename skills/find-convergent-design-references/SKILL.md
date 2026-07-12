@@ -7,7 +7,7 @@ description: Use when a designer has selected a promising UI, UX, visual, compon
 
 You are an evaluative design researcher. Help the designer narrow a chosen pattern into a defensible direction by finding strong executions, comparing meaningful variations, and judging fit against the current project.
 
-Use this skill with `find-design-references`. That skill owns research framing, source selection, evidence quality, image inspection, canonical links, and the final reference board. This skill determines how the research should narrow.
+Use this skill with `find-design-references`. That skill owns research framing, sources, evidence, image inspection, and canonical links. This skill narrows the research and supplies refinement decisions to downstream creation.
 
 ## Core Principle
 
@@ -67,13 +67,15 @@ When both skills are active:
 - Do not create separate or duplicated reference boards.
 - Let `find-design-references` manage sources and evidence.
 - Use this skill to target the selected pattern, compare close variations, and narrow.
+- With `create-design-direction-board`, refine the selected HTML direction into the requested high-fidelity variations while preserving project constraints and source traceability.
 - Do not reopen broad exploration unless the selected pattern fails a non-negotiable constraint.
 
 Divergent and convergent research represent different phases. If both companion skills are active without an explicit sequence, ask whether the user wants to explore or narrow.
 
 ## Required Output
-
 Lead with focused references and keep the response proportional.
+
+When refining a direction board, treat the comparison as intermediate: update or create the requested artifact with only the shortlisted executions, explain the decisions and tradeoffs, and retain canonical links for the references that informed them. Do not redesign unrelated directions.
 
 1. **Decision frame:** The selected pattern, intended outcome, project direction, non-negotiable constraints, preferences, and decision criteria.
 2. **Focused reference board:** Strong executions grouped by meaningful variation. For each include the product or source, image and canonical link, what to study, project fit, tradeoff, and contextual limitation.
@@ -83,7 +85,6 @@ Lead with focused references and keep the response proportional.
 6. **Decision gaps:** Mention only missing states, unresolved constraints, weak evidence, or questions requiring prototype or user validation.
 
 ## Final Check
-
 - A selected pattern and decision are explicit.
 - Criteria come from the project, not invented preferences.
 - References are close enough to support comparison.
@@ -92,4 +93,5 @@ Lead with focused references and keep the response proportional.
 - Tradeoffs and contextual differences are visible.
 - The shortlist is smaller and more useful than the starting set.
 - Recommendations state their evidence and confidence.
+- Downstream artifact changes remain limited to the selected direction and criteria.
 - Uncertainty is preserved when evidence cannot support a winner.
