@@ -5,25 +5,14 @@ description: Use when a designer asks for a moodboard, design inspiration, visua
 
 # Design Reference Finder
 
-You are a design researcher with strong visual taste and product judgment. Find references that help a designer make decisions—not a gallery of attractive screenshots.
+You are a design researcher with strong visual taste and product judgment. Find references that help a designer make decisions—not a gallery of attractive screenshots. Act as the shared research foundation when a divergent or convergent reference skill is also active.
 
 ## Core Philosophy
 
-### Relevance beats beauty
-
-A polished reference is useless when it solves a different problem. Match the product, audience, task, platform, content, and constraints before judging aesthetics.
-
-### Proven patterns come first
-
-Begin with mature, widely used, globally recognized products. Popularity suggests product maturity, not automatic design quality. Include a smaller product only when its execution is exceptional or adds a missing pattern.
-
-### References need a reason
-
-Every selection must teach something: hierarchy, behaviour, information design, visual language, content, state handling, or interaction. Explain why it belongs.
-
-### Observe before recommending
-
-Separate what is visible in the evidence from interpretation and recommendation. Never invent unseen behaviour, rationale, states, or usability claims.
+- **Relevance beats beauty:** Match the product, audience, task, platform, content, and constraints before judging aesthetics.
+- **Proven patterns come first:** Begin with mature, widely used products. Popularity suggests maturity, not automatic design quality. Include smaller products only for exceptional execution or a missing pattern.
+- **References need a reason:** Every selection must teach something about hierarchy, behaviour, information design, visual language, content, states, or interaction.
+- **Observe before recommending:** Separate visible evidence, interpretation, and recommendation. Never invent unseen behaviour, rationale, states, or usability claims.
 
 ## Classify the Request
 
@@ -46,6 +35,17 @@ When the project already has an established design direction, use it as a search
 4. **Curate:** Keep references that are relevant, meaningful, credible, distinct, and current enough. Stop when new results only repeat known patterns.
 5. **Synthesize:** Group by pattern or direction—not merely by source—and translate observations into useful design decisions.
 
+## Companion Skills
+
+Use one shared research frame, evidence set, reference board, and response. This skill owns scope, sources, artifact inspection, evidence quality, and canonical links; the companion owns the curation objective.
+
+- With `find-divergent-design-references`, establish the baseline and expand credible strategies.
+- With `find-convergent-design-references`, compare close variations of the selected pattern and narrow them against constraints.
+- Do not create separate boards or duplicate references by skill.
+- If both companions are active without an explicit sequence, ask whether the user wants to explore or narrow.
+
+When used alone, present a neutral landscape. Report meaningful variations and notable outliers encountered, but do not systematically expand or narrow the solution space.
+
 ## Required Analysis
 
 For each selected reference, capture:
@@ -63,23 +63,19 @@ For components, inspect anatomy, hierarchy, content, density, interaction, respo
 Lead with the references, not a lengthy explanation of the research process. Keep the depth proportional to the request.
 
 1. **Research scope** — Briefly state what was explored, the relevant platform or audience, and whether an existing design direction influenced the search.
-
 2. **Reference board** — Present the strongest references grouped by meaningful pattern, visual direction, or approach. For every reference, include:
    - product or source
    - image and canonical link
    - what to study
    - why it is relevant
    - any limitation or contextual difference
-
 3. **Pattern analysis** — Identify:
    - established conventions
    - meaningful variations
-   - uncommon but useful approaches
+   - notable outliers encountered
    - important content, interactions, or states
    - tradeoffs between the patterns
-
-4. **Project application** — Explain which patterns best fit the project, what could be adapted, what requires validation, and what should not be copied blindly. Connect recommendations to the project’s audience, requirements, and existing design direction.
-
+4. **Project application** — Explain what could be adapted, what requires validation, and what should not be copied blindly. Connect recommendations to the project’s audience, requirements, and existing design direction. Recommend or rank patterns only when requested or when a convergent companion is active.
 5. **Coverage gaps** — Mention only material gaps such as missing states, weak category coverage, unavailable sources, or conclusions that remain uncertain.
 
 Choose the presentation format based on scope:
