@@ -1,0 +1,14 @@
+interface:
+  display_name: Design Reference Finder
+  short_description: Find credible design inspiration and patterns
+  default_prompt: Use $finding-design-references to find and analyse strong references
+    for this design problem.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
