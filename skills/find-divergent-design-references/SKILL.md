@@ -64,7 +64,7 @@ Before ranking, every candidate direction must declare:
 - density and visual expression
 - interaction model, tradeoff, and inspected evidence
 
-A candidate must change at least two structural assumptions. Use a comparison matrix across **structure, sequence, interaction, representation, disclosure, and navigation**.
+A candidate must change at least two structural assumptions. Use a comparison matrix across **structure, sequence, interaction, representation, disclosure, and navigation**. Compare every final direction pairwise, not only against the baseline; a set can diverge from the baseline while still converging internally. Record the decisive pairwise differences.
 
 Reject a candidate when:
 
@@ -86,6 +86,7 @@ When direct competitors repeat one convention, deliberately search adjacent and 
 7. **Translate:** Explain what each approach opens up, limits, or requires validating.
 8. **Gate:** Generate the requested pool—or 10 candidates when selecting a smaller final set—then remove candidates that fail the divergence gate.
 9. **Rank:** Rank only the structurally distinct survivors against project relevance, feasibility, evidence quality, and useful contrast. Preserve excluded candidates and short rejection reasons in the working analysis.
+10. **Respect evidence limits:** If fewer credible, structurally distinct families survive than the requested count, report the supported count and ask whether to proceed with fewer or broaden research. Never invent hybrids or duplicate grammars merely to satisfy a number.
 
 Use cross-domain references only when their transferable principle and connection to the original problem can be explained explicitly. Stop when additional references repeat the same underlying strategy.
 
@@ -119,7 +120,8 @@ For a reference-only request, use the structure below. For a downstream directio
 - A useful baseline anchors the exploration.
 - Every alternative changes at least two structural assumptions.
 - No two final directions can be implemented from the same component tree with cosmetic or content-only changes.
-- The comparison matrix demonstrates meaningful differences in mental model, representation, interaction, or disclosure.
+- The pairwise comparison matrix demonstrates meaningful differences between every retained direction, not merely between each direction and the baseline.
+- The final count does not exceed the number of credible structural families supported by inspected evidence.
 - References represent distinct strategies, not cosmetic variations.
 - Uncommon does not replace relevant or credible.
 - Actual artifacts were inspected.
