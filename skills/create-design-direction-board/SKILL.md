@@ -29,13 +29,13 @@ Include:
 - responsive comparison chrome while preserving the intended product viewport
 - concise reasoning, tradeoff, and canonical source links for every direction
 
-Use the requested direction count; default to 10 when unspecified. Generate direction names from the research rather than a fixed list.
+Use the requested direction count; default to 10 when unspecified. Generate direction names from the research rather than a fixed list. If research supports fewer credible structural families than the requested count, do not fabricate or cosmetically split directions; surface the supported count and ask whether to proceed with fewer or broaden research.
 
 ## Pre-implementation Gate
 
 Do not write interface code until every direction has a distinct direction contract and the divergent skill's comparison matrix passes.
 
-Reject directions that could share the same product-interface component tree with only content, colour, typography, or card arrangement changes. Shared **comparison chrome** is encouraged—direction navigation, previous/next controls, reasoning, evidence, and URL-hash logic—but each product direction should own its layout skeleton, dominant surface, navigation, primary representation, disclosure, and main interaction when those are meant to differ.
+Reject directions that could share the same product-interface component tree with only content, colour, typography, or card arrangement changes. Shared **comparison chrome** is encouraged—direction navigation, previous/next controls, reasoning, evidence, and URL-hash logic—but the final set must contain direction-specific layout skeletons, dominant surfaces, representations, disclosure, and interactions sufficient to pass the pairwise structural and silhouette gates. Do not waive divergence by declaring these dimensions invariant after research.
 
 ## High-Fidelity Standard
 
@@ -55,7 +55,7 @@ Do not use placeholder boxes, lorem ipsum, decorative charts without meaning, fa
 
 Keep the product objective, audience, core information, and non-negotiable constraints consistent across directions. Vary the solution meaningfully through structure, hierarchy, disclosure, navigation, density, representation, interaction, or visual expression.
 
-Do not present colour swaps or cosmetic reskins as separate directions. Compare first-viewport silhouettes at the same size with colour, typography, and copy mentally removed. The directions must remain recognisably different through composition, reading order, dominant region, and interaction model. If they collapse into the same grayscale skeleton, redesign before publishing. Each direction must embody a distinct researched strategy and remain feasible enough to inform a real design decision.
+Do not present colour swaps or cosmetic reskins as separate directions. Compare first-viewport silhouettes at the same size with colour, typography, and copy mentally removed. The directions must remain recognisably different through composition, reading order, dominant region, and interaction model. If they collapse into the same grayscale skeleton, redesign before publishing. Render a same-size contact sheet or equivalent comparative capture and retain concise pairwise findings in the working analysis; visual distinctness cannot be satisfied by assertion alone. Each direction must embody a distinct researched strategy and remain feasible enough to inform a real design decision.
 
 ## Page Structure
 
@@ -89,7 +89,8 @@ When refining a selected direction, change only that direction and shared infras
 - Every direction was rendered and visually inspected at the same desktop viewport.
 - Each direction's unique interaction, selected state, shareable hash, and one meaningful secondary state were tested.
 - Desktop and narrow-width screenshots show no clipping.
-- Grayscale or silhouette comparison confirms the directions remain structurally distinct.
+- A same-size contact sheet or equivalent comparative capture was inspected and pairwise findings were recorded.
+- Grayscale or silhouette comparison confirms every direction remains structurally distinct from every other direction.
 - The first render is complete and no content clips at supported widths.
 - Reasoning and canonical sources match each direction.
 - The file opens independently and requires no Figma or build process.
