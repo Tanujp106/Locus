@@ -1,6 +1,13 @@
 # Mobbin Research Playbook
 
-Read this file only when Mobbin is useful or explicitly requested.
+Read this file for digital-product UI, components, website sections, and flows. Mobbin is the primary source for these requests when available.
+
+## Research Gate
+
+- Call the relevant Mobbin search before synthesising patterns, recommending directions, or creating a downstream design artifact.
+- Inspect the returned images; search completion or metadata alone does not satisfy the gate.
+- Preserve every canonical `mobbin_url` used in reasoning or creation.
+- If Mobbin is unavailable, state that before continuing. Never silently substitute invented or reconstructed references.
 
 ## Route the Request
 
