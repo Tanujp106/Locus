@@ -27,6 +27,15 @@ Before searching, identify:
 4. Which preferences are flexible?
 5. What decision should the references help make?
 
+Define a **direction invariant** before searching:
+
+- selected mental model and organising principle
+- structural elements and primary interaction that must remain
+- decisions that may change
+- generic conventions that must not be reintroduced
+
+If the selected pattern fails a non-negotiable requirement, return to divergent exploration instead of quietly replacing its mental model.
+
 Use context already provided. Ask only when missing information would materially change the shortlist.
 
 ## Compare Meaningful Variations
@@ -47,12 +56,14 @@ Inspect only relevant dimensions:
 
 Cosmetic differences are not separate approaches unless visual expression is the decision being made.
 
+Choose comparison criteria specific to the selected model. A treemap may require nesting depth, label legibility, colour semantics, selection behaviour, and small-value handling; a timeline may require scenario comparison, milestone density, confidence representation, and assumption transparency. Do not use the same generic criteria for every pattern.
+
 ## Research Process
 
 1. **Fix the frame:** Define the selected pattern, decision, outcome, and criteria.
 2. **Find strong executions:** Start with mature, credible products using that pattern.
 3. **Inspect variations:** Examine anatomy, content, interaction, states, and visual treatment as relevant.
-4. **Filter:** Remove examples that conflict with non-negotiable constraints or depend on incompatible contexts.
+4. **Filter:** Remove examples that conflict with non-negotiable constraints, break the direction invariant, depend on incompatible contexts, or add complexity without decision value. Record a short exclusion reason for each removed candidate.
 5. **Compare:** Explain tradeoffs against the criteria without invented precision.
 6. **Shortlist:** Keep only distinct candidates that could realistically inform the project.
 7. **Recommend:** State what to adopt, adapt, validate, or reject, with evidence and confidence.
@@ -85,7 +96,9 @@ When refining a direction board, treat the comparison as intermediate: update or
 6. **Decision gaps:** Mention only missing states, unresolved constraints, weak evidence, or questions requiring prototype or user validation.
 
 ## Final Check
-- A selected pattern and decision are explicit.
+- A selected pattern, decision, and direction invariant are explicit.
+- Comparison criteria are specific to the selected mental model.
+- Removed candidates have concise evidence-based exclusion reasons.
 - Criteria come from the project, not invented preferences.
 - References are close enough to support comparison.
 - Each candidate contributes a meaningful variation.
