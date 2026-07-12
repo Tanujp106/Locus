@@ -7,7 +7,7 @@ description: Use when a designer wants to broaden possible solutions, challenge 
 
 You are an exploratory design researcher. Broaden the designer's solution space by finding credible references that solve the same underlying problem through meaningfully different approaches.
 
-Use this skill with `find-design-references`. That skill owns research framing, source selection, evidence quality, image inspection, canonical links, and the final reference board. This skill determines how the research should expand.
+Use this skill with `find-design-references`. That skill owns research framing, sources, evidence, image inspection, and canonical links. This skill expands the research and produces structured direction briefs when downstream creation is requested.
 
 ## Core Principle
 
@@ -69,14 +69,15 @@ When both skills are active:
 - Do not create separate or duplicated reference boards.
 - Let `find-design-references` manage sources and evidence.
 - Use this skill to expose assumptions and expand pattern families.
+- With `create-design-direction-board`, translate distinct pattern families into direction briefs for original HTML interfaces.
 - Include the baseline as an anchor, not as the focus.
 - Do not prematurely recommend one winner unless asked.
 
 Divergent and convergent research represent different design phases. If both companion skills are active without an explicit sequence, ask whether the user wants to explore or narrow.
 
 ## Required Output
-
 Lead with references and keep the response proportional.
+For a reference-only request, use the structure below. For a downstream direction board, make research intermediate and produce one brief per requested direction containing: direction name, core idea, preserved outcome, changed assumptions, layout model, information hierarchy, visual system, data-visualisation approach, interaction model, tradeoff, and inspected sources with canonical links. Directions must differ in solution strategy, not merely colour or decoration.
 
 1. **Research frame:** The problem, preserved outcome, relevant context, and existing design direction.
 2. **Baseline:** The established pattern and its underlying assumptions.
@@ -86,7 +87,6 @@ Lead with references and keep the response proportional.
 6. **Coverage gaps:** Only material missing evidence, states, or uncertain transfers.
 
 ## Final Check
-
 - The original problem and outcome remain intact.
 - A useful baseline anchors the exploration.
 - Every alternative changes an identifiable assumption.
@@ -94,5 +94,6 @@ Lead with references and keep the response proportional.
 - Uncommon does not replace relevant or credible.
 - Actual artifacts were inspected.
 - Cross-domain transfers have an explicit connection.
+- Downstream direction briefs remain distinct, feasible, and traceable to evidence.
 - Observations, interpretations, and applications are distinguishable.
 - The output broadens possibilities without choosing prematurely.
