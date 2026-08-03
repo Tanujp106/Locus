@@ -1,0 +1,13 @@
+{
+  "skill_name": "replace-with-skill-name",
+  "evals": [
+    {
+      "id": "basic-workflow",
+      "prompt": "Replace with a representative user task.",
+      "assertions": [
+        "The required outcome is produced.",
+        "The workflow follows its verification requirements."
+      ]
+    }
+  ]
+}
