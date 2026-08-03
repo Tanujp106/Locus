@@ -1,5 +1,13 @@
 # Design Plugin
 
-Design workflows and visual-quality skills will live here.
+Design workflows and visual-quality skills live here.
 
-Add each skill under `skills/<skill-name>/`. Keep each skill self-contained and add evaluations once its behavior is stable.
+## Included skills
+
+- `create-design-direction-board`
+- `find-design-references`
+- `find-divergent-design-references`
+- `find-convergent-design-references`
+- `dialkit-tuning`
+
+Add future skills under `skills/<skill-name>/`. Keep each skill self-contained and add evaluations once its behavior is stable.
