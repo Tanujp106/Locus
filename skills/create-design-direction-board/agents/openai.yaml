@@ -1,0 +1,14 @@
+interface:
+  display_name: "Design Direction Board"
+  short_description: "Build interactive high-fidelity direction boards"
+  default_prompt: "Use $create-design-direction-board with $find-design-references and $find-divergent-design-references to create an interactive design direction board for this project."
+  icon_small: "assets/icon.svg"
+  icon_large: "assets/icon.svg"
+  brand_color: "#4F7CFF"
+policy:
+  products:
+    - "chatgpt"
+    - "codex"
+    - "api"
+    - "atlas"
+  allow_implicit_invocation: true

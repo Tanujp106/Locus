@@ -1,5 +1,7 @@
 # Locus
 
+Skills and plugins for automating mundane design processes.
+
 Locus is a personal, portable library of reusable Agent Skills organized into installable domain plugins.
 
 The repository is designed around three layers:
