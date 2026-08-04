@@ -1,0 +1,40 @@
+{
+  "skill_name": "organizing-agent-skills",
+  "evals": [
+    {
+      "id": "new-skill-layout",
+      "prompt": "Create a new design skill with a main workflow, detailed guidance, a deterministic helper, examples, and a reusable output template. Where does each item go?",
+      "assertions": [
+        "The main workflow is placed at plugins/design/skills/<skill>/SKILL.md.",
+        "Detailed guidance is placed under references and deterministic helpers under scripts.",
+        "Examples are distinguished from copyable output assets."
+      ]
+    },
+    {
+      "id": "eval-output-boundary",
+      "prompt": "A skill needs evaluation prompts, assertions, fixtures, and generated transcripts from repeated runs. Which files are committed and where do generated outputs go?",
+      "assertions": [
+        "Stable cases are placed in the skill-local evals/evals.json.",
+        "Generated reports and transcripts go in ignored repository-level evals-workspace/iteration-N/.",
+        "Generated outputs are not committed inside the distributable skill."
+      ]
+    },
+    {
+      "id": "integration-boundary",
+      "prompt": "A design plugin now needs an MCP server, a hook, and Codex UI metadata. Where should each integration live?",
+      "assertions": [
+        "MCP configuration is plugin-level in .mcp.json.",
+        "Hooks live under the plugin hooks surface.",
+        "Codex UI metadata uses the skill's agents/openai.yaml adapter rather than an invented universal ui directory."
+      ]
+    },
+    {
+      "id": "avoid-duplicate-source",
+      "prompt": "A developer wants to add a second copy of a skill under the root skills/ directory for convenience. What should the author do?",
+      "assertions": [
+        "Keep one canonical copy under plugins/<plugin>/skills/<skill>/.",
+        "Do not create a duplicate root-level skill source."
+      ]
+    }
+  ]
+}

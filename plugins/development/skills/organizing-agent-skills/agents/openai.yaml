@@ -1,0 +1,4 @@
+interface:
+  display_name: "Organize Agent Skills"
+  short_description: "Choose the right skill and plugin files"
+  default_prompt: "Use $organizing-agent-skills to decide where each new skill resource belongs."
